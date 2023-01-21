@@ -1,0 +1,76 @@
+h1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+main {
+    display: grid;
+    margin-left: 50px;
+    gap: 20px;
+    height: 600px;
+    width: 1000px;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+
+    grid-gap: 20px;
+}
+
+.topleft {
+    background-image: url("image.png");
+
+}
+
+.bottomleft {
+    background-image: url("image.png");
+}
+
+
+.right {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    grid-gap: 20px;
+}
+
+.topright {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.toprightitem {
+    background-image: url("image.png");
+}
+
+.bottomright {
+    background-image: url("image.png");
+
+}
+
+p {
+    position: absolute;
+    width: 276px;
+    height: 51px;
+    left: 837px;
+    top: 628px;
+
+    /* Read More... */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    /* identical to box height */
+
+    color: #000000;
+}
